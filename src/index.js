@@ -55,7 +55,7 @@ class Server {
     // await this.initMailer(); <== we will unable later
   }
   async connectDatabase() {
-    await mongoose.connect(process.env.MONGO_URL, {
+    await mongoose.connect(process.env.MONGODB_URI, {
       useNewUrlParser: true,
       autoIndex: true,
     });
