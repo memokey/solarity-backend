@@ -4,7 +4,8 @@
   "description": "",
   "main": "bin/www",
   "scripts": {
-    "start": "nodemon bin/www"
+    "start": "node bin/www",
+    "dev": "nodemon bin/www"
   },
   "author": "",
   "license": "ISC",
