@@ -1,9 +1,11 @@
 {
-  "name": "solarity",
+  "name": "solarity-backend",
   "version": "1.0.0",
   "description": "",
   "main": "bin/www",
-  "scripts": {},
+  "scripts": {
+    "start": "nodemon bin/www"
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {
